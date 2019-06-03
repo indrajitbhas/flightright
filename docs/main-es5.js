@@ -164,7 +164,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var appRoutes = [
     { path: 'admin', component: _blog_admin_blog_admin_component__WEBPACK_IMPORTED_MODULE_9__["BlogAdminComponent"] },
-    { path: 'Flightright/admin', component: _blob_list_blob_list_component__WEBPACK_IMPORTED_MODULE_6__["BlobListComponent"] }
+    { path: '', component: _blob_list_blob_list_component__WEBPACK_IMPORTED_MODULE_6__["BlobListComponent"] }
 ];
 var AppModule = /** @class */ (function () {
     function AppModule() {
