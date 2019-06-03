@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<main role=\"main\" class=\"container\">\n  <div class=\"nav-scroller py-1 mb-2\">\n      <nav class=\"nav d-flex justify-content-between\">\n        <a class=\"p-12 text-muted\" href=\"\">Home</a>\n        <a class=\"p-12 text-muted\" href=\"admin\">Admin</a>\n      </nav>\n  </div>\n  <div class=\"row\" style=\"margin-top: 20px\">\n\n    <div class=\"col-md-12 blog-main\">\n      <h3 class=\"pb-4 mb-4 font-italic border-bottom\">\n        Flightright Problem 2\n      </h3>\n      <router-outlet></router-outlet>\n      <!-- <app-blob-list></app-blob-list> -->\n    </div><!-- /.blog-main -->\n\n  </div><!-- /.row -->\n\n</main><!-- /.container -->\n"
+module.exports = "<main role=\"main\" class=\"container\">\r\n  <div class=\"nav-scroller py-1 mb-2\">\r\n      <nav class=\"nav d-flex justify-content-between\">\r\n        <a class=\"p-12 text-muted\" href=\"\">Home</a>\r\n        <a class=\"p-12 text-muted\" href=\"admin\">Admin</a>\r\n      </nav>\r\n  </div>\r\n  <div class=\"row\" style=\"margin-top: 20px\">\r\n\r\n    <div class=\"col-md-12 blog-main\">\r\n      <h3 class=\"pb-4 mb-4 font-italic border-bottom\">\r\n        Flightright Problem 2\r\n      </h3>\r\n      <router-outlet></router-outlet>\r\n      <!-- <app-blob-list></app-blob-list> -->\r\n    </div><!-- /.blog-main -->\r\n\r\n  </div><!-- /.row -->\r\n\r\n</main><!-- /.container -->\r\n"
 
 /***/ }),
 
@@ -164,7 +164,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var appRoutes = [
     { path: 'admin', component: _blog_admin_blog_admin_component__WEBPACK_IMPORTED_MODULE_9__["BlogAdminComponent"] },
-    { path: '', component: _blob_list_blob_list_component__WEBPACK_IMPORTED_MODULE_6__["BlobListComponent"] }
+    { path: 'Flightright/admin', component: _blob_list_blob_list_component__WEBPACK_IMPORTED_MODULE_6__["BlobListComponent"] }
 ];
 var AppModule = /** @class */ (function () {
     function AppModule() {

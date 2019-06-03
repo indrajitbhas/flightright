@@ -11,7 +11,7 @@ import { BlogAdminComponent } from './blog-admin/blog-admin.component';
 
 const appRoutes: Routes = [
   { path: 'admin', component: BlogAdminComponent},
-  { path: '', component: BlobListComponent}
+  { path: 'Flightright/admin', component: BlobListComponent}
 ];
 
 @NgModule({
