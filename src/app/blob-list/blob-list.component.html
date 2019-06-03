@@ -1,0 +1,30 @@
+<div class="blog-post" *ngFor = "let x of blist">
+  <h2 class="blog-post-title">{{x.title}}</h2>
+  <p class="blog-post-meta">{{x.date |  date:'fullDate'}} by <a href="#">{{x.writer}}</a></p>
+  <p>{{x.body}}</p>
+  <a href="#" *ngIf="!editionMode" (click)="editBlog(x)">Edit blog</a>
+</div><!-- /.blog-post -->
+<div *ngIf = "editionMode" style="margin-bottom: 10px">
+  <form>
+    <div class="form-group">
+      <label for="id"><b>Blog Id:</b></label>
+      <span>{{"  " + currentBlog.id}}</span>
+    </div>
+    <div class="form-group">
+      <label for="title">Title</label>
+      <input id="title" [(ngModel)]="currentBlog.title" name="title" class="form-control" type="text">
+    </div>
+    <div class="form-group">
+      <label for="date">Date</label>
+      <input class="form-control" [(ngModel)]="currentBlog.date" id="date" name="date" type="text"  disabled>
+    </div>
+    <div class="form-group">
+      <label for="body">Blog body</label>
+      <textarea class="form-control" [(ngModel)]="currentBlog.body" name="body" id="body" rows="8" cols="80"></textarea>
+    </div>
+    <div>
+        <button type="submit" (click)="cancel()" class="btn btn-primary">Cancel</button>
+        <button type="submit" (click)="save()" class="btn btn-primary" style="margin-left: 10px">Save</button>
+    </div>
+  </form>
+</div>
