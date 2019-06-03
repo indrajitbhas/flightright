@@ -4,7 +4,7 @@ import { FormsModule }   from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BlobListComponent } from './blob-list/blob-list.component';
+import { BlobListComponent } from './blob-list/Blob-list.component';
 import { BlogsService } from './blogs.service';
 import { RouterModule, Routes } from '@angular/router';
 import { BlogAdminComponent } from './blog-admin/blog-admin.component';

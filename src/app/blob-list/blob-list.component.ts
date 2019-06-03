@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Blog } from '../blog';
 import { Observable } from 'rxjs';
-import { BlogsService } from '../blogs.service'
+import { BlogsService } from '../blogs.service';
 
 @Component({
   selector: 'app-blob-list',
@@ -13,7 +13,6 @@ export class BlobListComponent implements OnInit {
   editionMode: boolean = false;
   currentBlog: Blog;
   prevBlogBeforeEdition: Blog;
-
 
   constructor(bservice: BlogsService) {
     bservice.getBlogs().subscribe(x => this.blist = x)
