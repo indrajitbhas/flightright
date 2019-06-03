@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<main role=\"main\" class=\"container\">\n  <div class=\"nav-scroller py-1 mb-2\">\n      <nav class=\"nav d-flex justify-content-between\">\n        <a class=\"p-12 text-muted\" href=\"\">Home</a>\n        <a class=\"p-12 text-muted\" href=\"/admin\">Admin</a>\n      </nav>\n  </div>\n  <div class=\"row\" style=\"margin-top: 20px\">\n\n    <div class=\"col-md-12 blog-main\">\n      <h3 class=\"pb-4 mb-4 font-italic border-bottom\">\n        Flightright Problem 2\n      </h3>\n      <router-outlet></router-outlet>\n      <!-- <app-blob-list></app-blob-list> -->\n    </div><!-- /.blog-main -->\n\n  </div><!-- /.row -->\n\n</main><!-- /.container -->\n"
+module.exports = "<main role=\"main\" class=\"container\">\n  <div class=\"nav-scroller py-1 mb-2\">\n      <nav class=\"nav d-flex justify-content-between\">\n        <a class=\"p-12 text-muted\" href=\"\">Home</a>\n        <a class=\"p-12 text-muted\" href=\"admin\">Admin</a>\n      </nav>\n  </div>\n  <div class=\"row\" style=\"margin-top: 20px\">\n\n    <div class=\"col-md-12 blog-main\">\n      <h3 class=\"pb-4 mb-4 font-italic border-bottom\">\n        Flightright Problem 2\n      </h3>\n      <router-outlet></router-outlet>\n      <!-- <app-blob-list></app-blob-list> -->\n    </div><!-- /.blog-main -->\n\n  </div><!-- /.row -->\n\n</main><!-- /.container -->\n"
 
 /***/ }),
 
